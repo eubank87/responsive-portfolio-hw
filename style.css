@@ -1,11 +1,9 @@
-.footer{
-    background-color: grey;
-    text-align: center;
-    color: rgb(168, 168, 168);
-}
-
 body{
     background-color: cornflowerblue;
+}
+
+a{
+    color: grey;
 }
 
 .container{
@@ -15,7 +13,19 @@ body{
 }
 
 .navbar{
-    background-color: #eee
+    position: relative;
+}
+
+#navbar-brand{
+    background-color: purple;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+/* added container within navbar to position content */
+.container-2{
+    position: absolute;
+    left: 80%;
 }
 
 .jumbotron{
@@ -25,10 +35,12 @@ body{
     padding: 0;
 }
 
-a{
-    color: grey;
-}
-
 img, p, h1{
     padding: 2%;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    color: rgb(168, 168, 168);
 }
