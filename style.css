@@ -4,13 +4,31 @@
     color: rgb(168, 168, 168);
 }
 
-#relative{
-    position: relative;
+body{
+    background-color: cornflowerblue;
 }
 
-#abosulte{
-    position: absolute;
-    right: 50px;
-    text-align: center;
-    background-color: purple;
+.container{
+    background-color: #eee;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+.navbar{
+    background-color: #eee
+}
+
+.jumbotron{
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+a{
+    color: grey;
+}
+
+img, p, h1{
+    padding: 2%;
 }
