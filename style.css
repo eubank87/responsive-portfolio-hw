@@ -1,5 +1,6 @@
 body{
-    background-color: cornflowerblue;
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/95/18/seamless-geometric-pattern-repeating-background-vector-9789518.jpg);
+    background-color: #cccccc;
 }
 
 a{
@@ -19,7 +20,7 @@ a{
 #navbar-brand{
     background-color: purple;
     color: #eee;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lobster', cursive;
     font-size: xx-large;
 }
 /* added container within navbar to position content */
@@ -29,9 +30,7 @@ a{
 }
 
 .jumbotron{
-    margin-top: 10%;
-    margin-right: 30%;
-    margin-left: 5%;
+    margin: 10% 30% 8% 3%;
     padding: 0;
 }
 
@@ -39,8 +38,22 @@ img, p, h1{
     padding: 2%;
 }
 
+h1{
+    color: purple;
+    font-family: 'Lobster', cursive;
+}
+
+.line{
+    background-color: purple;
+    height: 10px;
+}
+
 .footer{
+    height: 50px;
     background-color: grey;
+}
+
+#bottom{
     text-align: center;
     color: rgb(168, 168, 168);
 }
