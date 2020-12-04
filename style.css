@@ -1,0 +1,16 @@
+.footer{
+    background-color: grey;
+    text-align: center;
+    color: rgb(168, 168, 168);
+}
+
+#relative{
+    position: relative;
+}
+
+#abosulte{
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    background-color: purple;
+}
