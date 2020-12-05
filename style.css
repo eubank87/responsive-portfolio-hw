@@ -1,17 +1,12 @@
 body{
-    background-image: url(https://64.media.tumblr.com/d9409db17dd27b159bfde55aee608c3c/d4d8859a63921697-27/s540x810/e54a8b8c67eadec631561da43907f3616326aa30.png);
+    background-image: url(https://image.freepik.com/free-vector/grey-square-pattern-background-vector-illustration_1164-1349.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     background-color: #cccccc;
 }
 
 a{
     color: grey;
-}
-
-.container{
-    background-color: #eee;
-    margin-top: 10%;
-    margin-right: 20%;
-    padding-bottom: 5%;
 }
 
 .navbar{
@@ -24,8 +19,9 @@ a{
     font-family: 'Lobster', cursive;
     font-size: xx-large;
 }
+
 /* added container within navbar to position content */
-.container-2{
+.navbar-2{
     position: absolute;
     left: 80%;
 }
@@ -33,6 +29,13 @@ a{
 .jumbotron{
     margin: 10% 30% 8% 3%;
     padding: 0;
+}
+
+.container{
+    background-color: #eee;
+    margin-top: 10%;
+    margin-right: 20%;
+    padding-bottom: 5%;
 }
 
 img, p, h1{
@@ -44,21 +47,6 @@ h1{
     font-family: 'Lobster', cursive;
 }
 
-.line{
-    background-color: purple;
-    height: 10px;
-}
-
-.footer{
-    height: 50px;
-    background-color: grey;
-}
-
-#bottom{
-    text-align: center;
-    color: rgb(168, 168, 168);
-}
-
 .form{
     padding-bottom: 10px;
 }
@@ -66,4 +54,35 @@ h1{
 .btn{
     color: #eee;
     background-color: purple;
+}
+
+.footer{
+    height: 50px;
+    background-color: grey;
+    position: relative fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.line{
+    background-color: purple;
+    height: 10px;
+    position: fixed absolute;
+    width: 100%;
+}
+
+#bottom{
+    text-align: center;
+    color: rgb(168, 168, 168);
+    position: absolute;
+    width: 100%;
+}
+
+.photo{
+    height: 350px;
+    width: 350px;
+}
+
+.photo-2{
+    height: 350px;
 }
