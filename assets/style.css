@@ -36,6 +36,11 @@ a{
     flex-direction: row;
 }
 
+#navbar-brand{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 /* Used margin and padding to arrange page content. */
 .jumbotron{
     margin: 10% 30% 8% 3%;
