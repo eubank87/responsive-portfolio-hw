@@ -1,18 +1,22 @@
+/* Tried to organize content as it appears in html. */
+
+/* Used url tag to display repeating image from online. */
 body{
     background-image: url(https://image.freepik.com/free-vector/grey-square-pattern-background-vector-illustration_1164-1349.jpg);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #cccccc;
 }
 
+/* Changed link colors to grey. */
 a{
     color: grey;
 }
 
+/* Manipulated navbar positioning to align as shown in class repo. */
 .navbar{
     position: relative;
 }
 
+/* Added color and font styling to personalize. */
 #navbar-brand{
     background-color: purple;
     color: #eee;
@@ -20,12 +24,19 @@ a{
     font-size: xx-large;
 }
 
-/* added container within navbar to position content */
+/* Added container within navbar to position content. */
 .navbar-2{
     position: absolute;
     left: 80%;
 }
 
+/* Navbar was displaying outiside of page limits in og bootsrap code. Changed direction from column to row to be accessible at all screen sizes. */
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Used margin and padding to arrange page content. */
 .jumbotron{
     margin: 10% 30% 8% 3%;
     padding: 0;
@@ -41,9 +52,16 @@ img, p, h1{
     padding: 2%;
 }
 
+/* Added personal styling. */
 h1{
     color: purple;
     font-family: 'Lobster', cursive;
+}
+
+/* Added a no wrap rule to help with mobile formatting. */
+.display-3{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .form{
@@ -55,6 +73,7 @@ h1{
     background-color: purple;
 }
 
+/* Positioned footer and corresponding elemtents at bottom of page. */
 .footer{
     height: 50px;
     background-color: grey;
@@ -77,6 +96,7 @@ h1{
     width: 100%;
 }
 
+/* Added photo styling. Order only worked correclty at bottom of css style sheet. */
 .photo{
     height: 350px;
     width: 350px;
@@ -84,14 +104,4 @@ h1{
 
 .photo-2{
     height: 350px;
-}
-
-.navbar-nav{
-    display: flex;
-    flex-direction: row;
-}
-
-.photo-grid{
-    display: flex;
-    flex-wrap: wrap;
 }

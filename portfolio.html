@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Below are added links used for Boostrap, CSS and Google Fonts. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=img, initial-scale=1.0">
@@ -10,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
-
+<!-- Tools added from Boostrap: Navbar and Jumbotron. -->
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a id="navbar-brand" href="index.html">Ashley Eubank</a>
@@ -20,13 +22,14 @@
         <div class="navbar-2">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-item nav-link" href="contact.html">Contact 
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link active" href="index.html">About</a>
             <span class="sr-only">(current)</span></a></div>
         </div>
     </nav>
 
+    <!-- Added additional div class "photo-grid" to flex images without manipulating contact & bio. -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-3">Portfolio</h1>
@@ -34,18 +37,15 @@
             <div class="container">
                 <div class="photo-grid">
                     <div class="row">
-                        <div class="col-md-6"><img src="images/garth-bday.png" alt="garth in a bday hat" class="img-thumbnail"></div>
-                        <div class="col-md-6"><img src="images/garth-sun.jpeg" alt="garth at the park" class="img-thumbnail"></div>
+                        <div class="col-md-6"><img src="images/garth-bday.png" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-md-6"><img src="images/garth-sun.jpeg" class="img-fluid" alt="Responsive image"></div>
                     </div>
-                    <br>
-                    <br>
                     <div class="row">
-                        <div class="col-md-6"><img src="images/ash-vic.png" alt="ashley and victor at the pool" class="img-thumbnail"></div>
-                        <div class="col-md-6"><img src="images/garth-toy.png" alt="garth with a toy" class="img-thumbnail"></div>
+                        <div class="col-md-6"><img src="images/ash-vic.png" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-md-6"><img src="images/garth-toy.png" class="img-fluid" alt="Responsive image"></div>
                     </div>
-                    <br>
                     <div class="row">
-                        <div class="col-md-6"><img src="images/ash-vic-park.jpeg" alt="ashley and victor at the park" class="img-thumbnail"></div>
+                        <div class="col-md-6"><img src="images/ash-vic-park.jpeg" class="img-fluid" alt="Responsive image"></div>
                         <div class="col-md-6"></div>
                     </div>
                 </div>
@@ -57,6 +57,8 @@
         <div class="line"></div>
         <div id="bottom">&copy;Copyright</div>
     </footer>
+
+    <!-- Added additional links from Boostrap website as shown in demo. -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
