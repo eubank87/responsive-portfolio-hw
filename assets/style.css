@@ -28,6 +28,7 @@ a{
 .navbar-2{
     position: absolute;
     left: 80%;
+    bottom: 0%;
 }
 
 /* Navbar was displaying outiside of page limits in og bootsrap code. Changed direction from column to row to be accessible at all screen sizes. */
@@ -69,6 +70,11 @@ h1{
     flex-wrap: nowrap;
 }
 
+/* Adjusted view height of photo to be compatible with mobile view. */
+.photo{
+    height: 35vh;
+}
+
 .form{
     padding-bottom: 10px;
 }
@@ -101,12 +107,47 @@ h1{
     width: 100%;
 }
 
-/* Added photo styling. Order only worked correclty at bottom of css style sheet. */
-.photo{
-    height: 350px;
-    width: 350px;
+
+/* added media rules to help with navbar dropdown on screens less than 992px. 
+This system seems tedious, but could not find another way to get the reaction I wanted.*/
+@media screen and (max-width:992px) {
+    .navbar-2{
+        position: absolute;
+        left: 70%;
+    }
 }
 
-.photo-2{
-    height: 350px;
+@media screen and (max-width:768px) {
+    .navbar-2{
+        position: absolute;
+        left: 65%;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .navbar-2{
+        position: absolute;
+        left: 60%;
+    }
+}
+
+@media screen and (max-width:597px) {
+    .navbar-2{
+        position: absolute;
+        left: 55%;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .navbar-2{
+        position: absolute;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:478px) {
+    .navbar-2{
+        position: absolute;
+        left: 45%;
+    }
 }
