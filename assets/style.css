@@ -58,6 +58,15 @@ img, p, h1{
     padding: 2%;
 }
 
+/* Changed padding around contact form to fit additional contact info correctly */
+.contact-info{
+    padding: 0%;
+}
+
+li{
+    font-size: large;
+}
+
 /* Added personal styling. */
 h1{
     color: purple;
@@ -145,9 +154,13 @@ This system seems tedious, but could not find another way to get the reaction I 
     }
 }
 
+/* Added a rule for font size on contact sheet to better fit screen in mobile view. */
 @media screen and (max-width:478px) {
     .navbar-2{
         position: absolute;
         left: 45%;
+    }
+    li{
+        font-size: medium;
     }
 }
