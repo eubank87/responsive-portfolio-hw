@@ -11,11 +11,6 @@ a{
     color: grey;
 }
 
-/* Manipulated navbar positioning to align as shown in class repo. */
-.navbar{
-    position: relative;
-}
-
 /* Added color and font styling to personalize. */
 #navbar-brand{
     background-color: purple;
@@ -24,34 +19,20 @@ a{
     font-size: xx-large;
 }
 
-/* Added container within navbar to position content. */
-.navbar-2{
-    position: absolute;
-    left: 80%;
-    bottom: 0%;
-}
-
-/* Navbar was displaying outiside of page limits in og bootsrap code. Changed direction from column to row to be accessible at all screen sizes. */
-.navbar-nav{
-    display: flex;
-    flex-direction: row;
-}
-
-#navbar-brand{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 /* Used margin and padding to arrange page content. */
 .jumbotron{
     margin: 10% 30% 8% 3%;
     padding: 0;
 }
 
-.container{
+#main-info{
     background-color: #eee;
     margin-top: 8%;
     padding-bottom: 5%;
+}
+
+.main-pad{
+    margin-bottom: 30%;
 }
 
 img, p, h1{
@@ -73,12 +54,6 @@ h1{
     font-family: 'Lobster', cursive;
 }
 
-/* Added a no wrap rule to help with mobile formatting. */
-.display-3{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 /* Adjusted view height of photo to be compatible with mobile view. */
 .photo{
     height: 35vh;
@@ -97,7 +72,7 @@ h1{
 .footer{
     height: 50px;
     background-color: grey;
-    position: relative fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -114,53 +89,4 @@ h1{
     color: rgb(168, 168, 168);
     position: absolute;
     width: 100%;
-}
-
-
-/* added media rules to help with navbar dropdown on screens less than 992px. 
-This system seems tedious, but could not find another way to get the reaction I wanted.*/
-@media screen and (max-width:992px) {
-    .navbar-2{
-        position: absolute;
-        left: 70%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .navbar-2{
-        position: absolute;
-        left: 65%;
-    }
-}
-
-@media screen and (max-width:678px) {
-    .navbar-2{
-        position: absolute;
-        left: 60%;
-    }
-}
-
-@media screen and (max-width:597px) {
-    .navbar-2{
-        position: absolute;
-        left: 55%;
-    }
-}
-
-@media screen and (max-width:530px) {
-    .navbar-2{
-        position: absolute;
-        left: 50%;
-    }
-}
-
-/* Added a rule for font size on contact sheet to better fit screen in mobile view. */
-@media screen and (max-width:478px) {
-    .navbar-2{
-        position: absolute;
-        left: 45%;
-    }
-    li{
-        font-size: medium;
-    }
 }
