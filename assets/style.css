@@ -17,6 +17,8 @@ a{
     color: #eee;
     font-family: 'Lobster', cursive;
     font-size: xx-large;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 /* Used margin and padding to arrange page content. */
@@ -32,7 +34,7 @@ a{
 }
 
 .main-pad{
-    margin-bottom: 30%;
+    margin-bottom: 45%;
 }
 
 img, p, h1{
@@ -44,6 +46,10 @@ img, p, h1{
     padding: 0%;
 }
 
+ul{
+    list-style: none;
+}
+
 li{
     font-size: large;
 }
@@ -52,6 +58,12 @@ li{
 h1{
     color: purple;
     font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px grey;
+}
+
+#resume{
+    text-shadow: 1px 1px grey;
+    font-size: 1.3rem;
 }
 
 /* Adjusted view height of photo to be compatible with mobile view. */
@@ -70,23 +82,28 @@ h1{
 
 /* Positioned footer and corresponding elemtents at bottom of page. */
 .footer{
-    height: 50px;
+    height: 100px;
     background-color: grey;
     position: fixed;
     bottom: 0;
+    right: 0;
     width: 100%;
 }
 
-.line{
+#line{
     background-color: purple;
     height: 10px;
-    position: fixed absolute;
     width: 100%;
 }
 
 #bottom{
     text-align: center;
-    color: rgb(168, 168, 168);
-    position: absolute;
+    color: purple;
     width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.footer-a{
+    color: purple;
 }
