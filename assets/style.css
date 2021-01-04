@@ -8,17 +8,22 @@ body{
 
 /* Changed link colors to grey. */
 a{
-    color: grey;
+    color: purple;
 }
 
 /* Added color and font styling to personalize. */
+#navbar{
+    background-image: linear-gradient(to bottom right, grey, white);
+}
+
 #navbar-brand{
-    background-color: purple;
+    background-image: linear-gradient( purple, rgb(173, 50, 173), purple);
     color: #eee;
     font-family: 'Lobster', cursive;
     font-size: xx-large;
     padding-right: 1%;
     padding-left: 1%;
+    border-radius: 1px 20px;
 }
 
 /* Used margin and padding to arrange page content. */
@@ -83,7 +88,8 @@ h1{
 /* Positioned footer and corresponding elemtents at bottom of page. */
 .footer{
     height: 100px;
-    background-color: grey;
+    /* background-color: grey; */
+    background-image: linear-gradient(to bottom right, grey, white);
     position: fixed;
     bottom: 0;
     right: 0;
@@ -91,7 +97,8 @@ h1{
 }
 
 #line{
-    background-color: purple;
+    /* background-color: purple; */
+    background-image: linear-gradient( purple, rgb(173, 50, 173), purple);
     height: 10px;
     width: 100%;
 }
@@ -102,8 +109,4 @@ h1{
     width: 100%;
     margin: 0 auto;
     margin-top: 12px;
-}
-
-.footer-a{
-    color: purple;
 }
