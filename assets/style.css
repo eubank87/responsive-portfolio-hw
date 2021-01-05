@@ -23,7 +23,7 @@ a{
     font-size: xx-large;
     padding-right: 1%;
     padding-left: 1%;
-    border-radius: 1px 20px;
+    border-radius: 0px 70px;
 }
 
 /* Used margin and padding to arrange page content. */
@@ -88,7 +88,6 @@ h1{
 /* Positioned footer and corresponding elemtents at bottom of page. */
 .footer{
     height: 100px;
-    /* background-color: grey; */
     background-image: linear-gradient(to bottom right, grey, white);
     position: fixed;
     bottom: 0;
@@ -97,7 +96,6 @@ h1{
 }
 
 #line{
-    /* background-color: purple; */
     background-image: linear-gradient( purple, rgb(173, 50, 173), purple);
     height: 10px;
     width: 100%;
