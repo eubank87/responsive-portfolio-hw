@@ -6,6 +6,10 @@ body{
     background-color: #cccccc;
 }
 
+*{
+    font-family: 'Arima Madurai', cursive;
+}
+
 /* Changed link colors to grey. */
 a{
     color: purple;
@@ -26,6 +30,10 @@ a{
     border-radius: 0px 70px;
 }
 
+.nav-item{
+    font-size: 1.5rem;
+}
+
 /* Used margin and padding to arrange page content. */
 .jumbotron{
     margin: 10% 30% 8% 3%;
@@ -40,6 +48,10 @@ a{
 
 .main-pad{
     margin-bottom: 45%;
+}
+
+p{
+    font-size: 1.2rem;
 }
 
 img, p, h1{
