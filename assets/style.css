@@ -15,6 +15,10 @@ a{
     color: purple;
 }
 
+a:hover{
+    transform: scaleY(1.1);
+}
+
 /* Added color and font styling to personalize. */
 #navbar{
     background-image: linear-gradient(to bottom right, grey, white);
@@ -69,6 +73,11 @@ ul{
 
 li{
     font-size: large;
+}
+
+#form-note{
+    font-style: italic;
+    font-size: small;
 }
 
 /* Added personal styling. */
