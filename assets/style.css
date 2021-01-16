@@ -44,7 +44,7 @@ a:hover{
     padding: 0;
 }
 
-#main-info{
+.main-info{
     background-color: #eee;
     margin-top: 8%;
     padding-bottom: 5%;
