@@ -93,7 +93,7 @@ h1{
 }
 
 /* Adjusted view height of photo to be compatible with mobile view. */
-.photo{
+#photo{
     height: 35vh;
 }
 

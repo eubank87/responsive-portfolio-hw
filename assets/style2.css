@@ -1,0 +1,17 @@
+*{
+    font-family: 'Arima Madurai', cursive;
+}
+
+h1{
+    color: purple;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px grey;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+#photo{
+    height: 350px;
+}
