@@ -3,6 +3,7 @@
 /* Used url tag to display repeating image from online. */
 body{
     background-image: url(https://image.freepik.com/free-vector/grey-square-pattern-background-vector-illustration_1164-1349.jpg);
+    /* background-image: url(https://64.media.tumblr.com/737e34ae50e8dd56ed26260a5aabd501/fa577711d127a6a5-1c/s1280x1920/78531677933817453c532bf21ad504d1fa0a5b07.jpg); */
     background-color: #cccccc;
 }
 
