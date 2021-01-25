@@ -5,15 +5,15 @@ $(document).ready(() => {
     // function to load main parts of html body
     function startPage() {
         $("body").fadeIn(() => {
-            $("nav").fadeIn(2000);
-            $("footer").fadeIn(2000);
-            $(`.${currentPage}-container`).fadeIn(2000);
+            $("nav").fadeIn(1000);
+            $("footer").fadeIn(1000);
+            $(`.${currentPage}-container`).fadeIn(1000);
         })
     }
 
-    $(document).on('click', '.header-name', function () {
-        console.log('clicked')
-    })
+    // $(document).on('click', '.header-name', function () {
+    //     console.log('clicked')
+    // })
 
     $(document).on('click', '.nav-link', function (event) {
         event.preventDefault()
