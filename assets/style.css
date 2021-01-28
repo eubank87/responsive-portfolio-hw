@@ -9,17 +9,17 @@ body{
 
 .parallax{
 
-     /* The image used */
+    /* The image used */
     background-image: url(https://64.media.tumblr.com/737e34ae50e8dd56ed26260a5aabd501/fa577711d127a6a5-1c/s1280x1920/78531677933817453c532bf21ad504d1fa0a5b07.jpg);
-           /* Full height */
-       height: 100%; 
+    /* Full height */
+    height: 100%; 
     
-       /* Create the parallax scrolling effect */
-       background-attachment: fixed;
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
-       padding-bottom: 10%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
     
 }
 
@@ -28,8 +28,11 @@ body{
 }
 
 /* Changed link colors to grey. */
-a{
-    color: purple;
+a, h3{
+    color: rgb(99, 39, 155);
+}
+h3{
+    text-decoration: underline;
 }
 
 /* a:hover{
@@ -41,7 +44,7 @@ a{
     background-image: linear-gradient(to bottom right, grey, white);
 }
 
-#navbar-brand{
+/* #navbar-brand{
     background-image: linear-gradient( purple, rgb(173, 50, 173), purple);
     color: #eee;
     font-family: 'Lobster', cursive;
@@ -49,7 +52,7 @@ a{
     padding-right: 1%;
     padding-left: 1%;
     border-radius: 0px 70px;
-}
+} */
 
 .nav-item{
     font-size: 1.5rem;
@@ -62,13 +65,17 @@ a{
 }
 
 .main-info{
-    background-color: #eee;
-    margin-top: 8%;
+    background-color: white;
+    /* margin-top: 8%; */
     padding-bottom: 5%;
 }
 
 .main-pad{
     margin-bottom: 30%;
+}
+
+.page-head{
+    padding-top: 10%;
 }
 
 p{
@@ -82,6 +89,10 @@ img, p, h1{
 /* Changed padding around contact form to fit additional contact info correctly */
 .contact-info{
     padding: 0%;
+}
+
+#contact-container, #portfolio-container{
+    padding-top: 5%;
 }
 
 ul{
@@ -99,7 +110,7 @@ li{
 
 /* Added personal styling. */
 h1{
-    color: purple;
+    color: rgb(99, 39, 155);
     font-family: 'Lobster', cursive;
     text-shadow: 3px 3px grey;
 }
@@ -120,7 +131,7 @@ h1{
 
 .btn{
     color: #eee;
-    background-color: purple;
+    background-color: rgb(99, 39, 155);
 }
 
 /* Positioned footer and corresponding elemtents at bottom of page. */

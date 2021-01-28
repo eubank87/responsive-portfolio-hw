@@ -17,6 +17,6 @@ The layout is responsive on mobile and features some of my completed projects. T
 [Ashley Eubank Portfolio](https://eubank87.github.io/responsive-portfolio-hw/)
 
 
-![main page view](main-page.png)
-![contact page view](contact-page.png)
-![portfolio page view](portfolio-page.png)
+![main page view](./assets/images/about.png)
+![portfolio page view](./assets/images/portfolio.png)
+![contact page view](./assets/images/contact.png)
