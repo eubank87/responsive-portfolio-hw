@@ -23,6 +23,13 @@ body{
     
 }
 
+@media screen and (max-width: 979px) {
+    .parallax {
+        background-attachment: fixed !important;
+        width: 100vw;
+    }
+}
+
 *{
     font-family: 'Arima Madurai', cursive;
 }
