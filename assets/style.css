@@ -83,6 +83,12 @@ h3{
 
 .page-head{
     padding-top: 10%;
+    margin-top: 10%;
+}
+
+#about{
+    margin: 0 auto;
+    margin-bottom: 30%;
 }
 
 p{
@@ -128,9 +134,9 @@ h1{
 }
 
 /* Adjusted view height of photo to be compatible with mobile view. */
-#photo{
+/* #photo{
     height: 60vh;
-}
+} */
 
 .form{
     padding-bottom: 10px;
