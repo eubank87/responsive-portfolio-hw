@@ -134,9 +134,9 @@ h1{
 }
 
 /* Adjusted view height of photo to be compatible with mobile view. */
-/* #photo{
-    height: 60vh;
-} */
+#photo{
+    width: 40vw;
+}
 
 .form{
     padding-bottom: 10px;
