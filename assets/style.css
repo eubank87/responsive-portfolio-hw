@@ -10,7 +10,7 @@ body{
 .parallax{
 
     /* The image used */
-    background-image: url(https://64.media.tumblr.com/737e34ae50e8dd56ed26260a5aabd501/fa577711d127a6a5-1c/s1280x1920/78531677933817453c532bf21ad504d1fa0a5b07.jpg);
+    background-image: url("./images/flower_background.jpg");
     /* Full height */
     height: 100%; 
     
@@ -23,10 +23,15 @@ body{
     
 }
 
-@media screen and (max-width: 979px) {
-    .parallax {
-        background-attachment: fixed !important;
-        width: 100vw;
+@media only screen and (max-width: 767px){
+    .parallax{
+        background-image: url("./images/flower_background_2.jpg");
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 10%;
     }
 }
 
