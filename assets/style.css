@@ -2,8 +2,6 @@
 
 /* Used url tag to display repeating image from online. */
 body{
-    /* background-image: url(https://image.freepik.com/free-vector/grey-square-pattern-background-vector-illustration_1164-1349.jpg); */
-    /* background-image: url(https://64.media.tumblr.com/737e34ae50e8dd56ed26260a5aabd501/fa577711d127a6a5-1c/s1280x1920/78531677933817453c532bf21ad504d1fa0a5b07.jpg); */
     background-color: #cccccc;
 }
 
@@ -47,24 +45,13 @@ h3{
     text-decoration: underline;
 }
 
-/* a:hover{
-    transform: scaleY(1.1);
-} */
-
-/* Added color and font styling to personalize. */
-#navbar{
-    background-image: linear-gradient(to bottom right, grey, white);
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
-/* #navbar-brand{
-    background-image: linear-gradient( purple, rgb(173, 50, 173), purple);
-    color: #eee;
-    font-family: 'Lobster', cursive;
-    font-size: xx-large;
-    padding-right: 1%;
-    padding-left: 1%;
-    border-radius: 0px 70px;
-} */
 
 .nav-item{
     font-size: 1.5rem;
@@ -87,8 +74,8 @@ h3{
 }
 
 .page-head{
-    padding-top: 10%;
-    margin-top: 10%;
+    padding-top: 20%;
+    /* margin-top: 10%; */
 }
 
 #about{
@@ -151,27 +138,3 @@ h1{
     color: #eee;
     background-color: rgb(99, 39, 155);
 }
-
-/* Positioned footer and corresponding elemtents at bottom of page. */
-/* .footer{
-    height: 100px;
-    background-image: linear-gradient(to bottom right, grey, white);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-} */
-
-/* #line{
-    background-image: linear-gradient( purple, rgb(173, 50, 173), purple);
-    height: 10px;
-    width: 100%;
-}
-
-#bottom{
-    text-align: center;
-    color: purple;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 12px;
-} */
